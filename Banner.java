@@ -6,24 +6,32 @@
  */
 public class Banner {
     
-    /* Message to print on Banner */
+    /* defines the message to be printed */
     private String message;
 
-    /* Constructor */
+    /* Constructs the banner using the inputted message*/
     public Banner(String m) {
         this.message = m;
     }
 
-    /*
-     * TODO: Modify this method to print a decorative banner, resized to fit the message
+    /**
+     * Displays the banner with the message inside
      */
     public void display() {
-        System.out.println(this.message);
+        String dash = "-";
+        System.out.println("---" + dash.repeat(this.message.length()) + "---");
+        System.out.println("---" + dash.repeat(this.message.length()) + "---");
+        System.out.print("|:|");
+        System.out.print(this.message);
+        System.out.println("|:|");
+        System.out.println("---" + dash.repeat(this.message.length()) + "---");
+        System.out.println("---" + dash.repeat(this.message.length()) + "---");
     }
 
     /* main method (for testing) */
     public static void main(String[] args) {
-        Banner myBanner = new Banner("Hello world");
+        Banner myBanner = new Banner("Hello World");
         myBanner.display();
     }
 }
+

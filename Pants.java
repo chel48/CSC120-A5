@@ -7,10 +7,19 @@
 public class Pants {
 
     /*
-     * TODO: Modify this method to print ASCII Art Pants
+     * Displays pants made out of ascii characters
      */
     public void display() {
-        System.out.println("Pants?);
+        //System.out.println("Pants?");
+        System.out.println("     |'''--.......--'''|");
+        System.out.println("     |        |        |   ");
+        System.out.println("     |        |        |   ");
+        System.out.println("     |        |        | ");
+        System.out.println("     |        |        |");
+        System.out.println("     |        |        |");
+        System.out.println("     |        |        |  ");
+        System.out.println("     |        |        |");
+        System.out.println("     ''*-.,__/|\\__,.-*''  "); 
     }
 
     /* main method (for testing) */

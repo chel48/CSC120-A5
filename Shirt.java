@@ -7,10 +7,19 @@
 public class Shirt {
 
     /*
-     * TODO: Modify this method to print ASCII Art Shirt
+     * Displays shirt made out of ascii characters
      */
     public void display() {
-        System.out.println("Shirt?);
+        //System.out.println("Shirt?");
+        System.out.println("    ...*''--....--''*...");
+        System.out.println("  /                      \\");
+        System.out.println(" |   |                |   |");
+        System.out.println(" |___|                |___| ");
+        System.out.println("     |                |");
+        System.out.println("     |                |");
+        System.out.println("     |                |  ");
+        System.out.println("     |                |");
+        System.out.println("     ''*-.,______,.-*''  "); 
     }
 
     /* main method (for testing) */
